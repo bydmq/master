@@ -1,0 +1,44 @@
+.new-collection {
+    height: 730px;
+}
+
+.new-collection__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 730px;
+}
+
+.new-collection__left {
+    width: 960px;
+    height: 100%;
+    padding: 93px 0;
+}
+
+.new-collection__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 880px;
+    height: 100%;
+    padding: 93px 0;
+    background-image: url("../../image/new-collection.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.news-season__title {
+    margin-bottom: 90px;
+}
+
+.news-season__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-collection__title {
+    margin-bottom: 70px;
+}

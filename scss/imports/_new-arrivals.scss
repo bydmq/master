@@ -1,0 +1,13 @@
+.new-arrivals {
+    padding: 120px 0 150px 0;
+}
+
+.new-arrivals__items {
+    display: grid;
+    grid-gap: 40px 23px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.new-arrivals__title {
+    margin-bottom: 120px;
+}

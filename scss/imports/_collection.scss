@@ -1,0 +1,43 @@
+.collection {
+    height: 600px;
+}
+
+.collection__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+
+.collection__left {
+    width: 880px;
+    height: 100%;
+    background-image: url("../../image/collection.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.collection__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 960px;
+    height: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.collection__title {
+    margin-bottom: 80px;
+    font-family: "PlayfairDisplay", sans-serif;
+    font-weight: 400;
+}
+
+.collection__descr {
+    width: 471px;
+    margin-bottom: 61px;
+    font-size: 14px;
+    color: var(--color-white);
+}

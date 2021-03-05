@@ -1,0 +1,22 @@
+.products {
+    width: 260px;
+    font-family: "PlayfairDisplay", sans-serif;
+    font-weight: 400;
+    color: var(--color-white);
+}
+
+.products__image {
+    margin-bottom: 25px;
+    padding: 55px 22px;
+    background-color: #191b1c;
+}
+
+.products__title {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.products__price {
+    font-weight: 700;
+    font-weight: 16px;
+}
